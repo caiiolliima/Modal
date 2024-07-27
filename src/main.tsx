@@ -8,7 +8,7 @@ import MenuBurguer from './MenuBurguer.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <Routes>
-      <Route path='/NewModal' element={<NewModal />} />
+      <Route path='/' element={<NewModal />} />
       <Route path='/MenuBurguer' element={<MenuBurguer />} />
     </Routes>
   </BrowserRouter>,

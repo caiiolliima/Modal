@@ -18,11 +18,11 @@ function NewModal() {
             <p>Qualquer coisa</p>
             <hr className="border-t-solid border-1 border-gray"/>
             <div className="flex flex-row justify-center">
-              <button className="border border-neutral-300 rounded-lg py-1.5 px-10 bg-blue-500 hover:bg-blue-500 text-white" onClick={() => setOpen(false)}>
-                Close
+              <button className="border border-neutral-300 rounded-lg py-1.5 px-10 bg-blue-900 hover:bg-blue-500 text-white" onClick={() => setOpen(false)}>
+                Confirm
               </button>
-              <button className="border border-neutral-300 rounded-lg py-1.5 px-10 bg-blue-500 hover:bg-blue-500 text-white" onClick={() => setOpen(false)}>
-                Close 2
+              <button className="border border-neutral-300 rounded-lg py-1.5 px-10 bg-red-900 hover:bg-red-500 text-white" onClick={() => setOpen(false)}>
+                Close
               </button>
             </div>
           </div>
