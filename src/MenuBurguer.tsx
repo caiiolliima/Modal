@@ -18,7 +18,7 @@ function MenuBurguer() {
         <>
             <div className="flex bg-gray-300">
 
-                <div className={`${open ? "w-72" : "w-24"} p-5 pt-8 duration-300 h-screen bg-indigo-500 relative`}>
+                <div className={`${open ? "w-72" : "w-24"} p-5 pt-8 duration-300 h-screen bg-blue-900 relative`}>
 
                     <img src="./src/assets/menu.svg" className={`absolute cursor-pointer w-7 -right-0`} onClick={() => setOpen(!open)} />
 

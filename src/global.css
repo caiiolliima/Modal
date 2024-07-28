@@ -21,6 +21,18 @@
   }
 
   .logo-icon {
-    @apply w-40 h-40 flex items-center justify-center text-2xl rounded-[50%] bg-gray-900/50
+    @apply  flex items-center justify-center text-2xl rounded-[50%] bg-black
+  }
+
+  .menu-bar {
+    @apply  h-max mt-8 flex flex-col gap-[15px] text-[16px] relative
+  }
+
+  .toggle-theme-btn {
+    @apply mt-96 flex items-center justify-center
+  }
+
+  .toggle {
+    @apply ml-[15px]
   }
 }
