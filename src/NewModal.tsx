@@ -37,6 +37,11 @@ function NewModal() {
                 Side Bar
           </Link>
         </button>
+        <button>
+          <Link to={"/SidebarAnt"} className="border border-neutral-300 rounded-lg py-[6px] px-10 my-2 bg-blue-500 hover:bg-blue-600 text-white">
+                SidebarAnt
+          </Link>
+        </button>
       </div>
   </>
   )
