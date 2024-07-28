@@ -24,7 +24,7 @@ function SidebarAnt () {
 
   return (
     <>
-      <Layout className="h-screen">
+      <Layout className="h-full">
         <Sider collapsed={collapsed} collapsible trigger={null} theme={darkTheme ? "dark" : "light"} className="sidebar">
           <LogoAnt />
           <MenuList darkTheme={darkTheme}/>
