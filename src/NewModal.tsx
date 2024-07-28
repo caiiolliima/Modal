@@ -32,6 +32,11 @@ function NewModal() {
                 Menu Burguer
           </Link>
         </button>
+        <button>
+          <Link to={"/Sidebar"} className="border border-neutral-300 rounded-lg py-[6px] px-10 my-2 bg-blue-500 hover:bg-blue-600 text-white">
+                Side Bar
+          </Link>
+        </button>
       </div>
   </>
   )
