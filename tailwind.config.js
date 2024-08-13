@@ -148,6 +148,7 @@ export default {
           },
   
           yellow: {
+            10: "#F0E8C2",
             50: "#FFF9DB",
             100: "#FFF3BF",
             200: "#FFEC99",

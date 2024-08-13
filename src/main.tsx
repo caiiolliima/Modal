@@ -6,6 +6,7 @@ import NewModal from './NewModal.tsx'
 import MenuBurguer from './MenuBurguer.tsx'
 import Sidebar from './components/Sidebar.tsx'
 import SidebarAnt from './components/SidebarAnt.tsx'
+import PaginaReceita from './PaginaReceita.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -14,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path='/MenuBurguer' element={<MenuBurguer />} />
       <Route path='/SideBar' element={<Sidebar />} />
       <Route path='/SidebarAnt' element={<SidebarAnt />} />
-
+      <Route path='/PaginaReceita' element={<PaginaReceita />} />
     </Routes>
   </BrowserRouter>,
 )
